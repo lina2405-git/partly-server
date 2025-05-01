@@ -1,0 +1,23 @@
+
+{
+    "region" : "eu-north-1",
+    "profile" : "PicknPlay1",
+    "function-name" : "picknplay-function",
+    "function-description" : "ten hours later",
+    "package-type"         : "Zip",
+    "function-memory-size" : 320,
+    "function-role"        : "arn:aws:iam::905418301597:role/lambda_exec_picknplay-function",
+    "function-timeout"     : 500,
+    "function-architecture" : "x86_64",
+    "image-command"         : "",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "dockerfile"               : "Dockerfile",
+    "image-tag"                : "picknplay:latest",
+    "configuration"            : "Release",
+    "framework"                : "net6.0",
+    "function-handler"         : "PickNPlay",
+    "function-runtime"         : "dotnet6"
+}

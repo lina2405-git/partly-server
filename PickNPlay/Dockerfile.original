@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 5000
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY "PickNPlay.csproj" "./src/PickNPlay/"
+COPY . "/src/PickNPlay/"
+WORKDIR "/src/PickNPlay"
+
+#RUN dotnet restore "PickNPlay/PickNPlay.csproj"
+RUN dotnet build "PickNPlay.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "PickNPlay.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "PickNPlay.dll"]

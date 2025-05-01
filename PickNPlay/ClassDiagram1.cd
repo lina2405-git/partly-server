@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PickNPlay.Controllers.AuthenticationController" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAABAAAA=</HashCode>
+      <FileName>Controllers\AuthenticationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.CategoryController" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAJAgAAAAABAAAgAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.CheckoutController" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAACACAAAAAAAQACAAAAAkAQQAAIAQEA=</HashCode>
+      <FileName>Controllers\CheckoutController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.FavouriteController" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAEAQAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\FavouriteController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.ImageController" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAEAAAAAACAAIAgAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ImageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.ListingController" Collapsed="true">
+    <Position X="15.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAQAAAAAgAAAAAAQBAAAgEAIAwAARAA=</HashCode>
+      <FileName>Controllers\ListingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.MessageController" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAhAACAAAAAAAAAAAACAAEAAAAAgAAA=</HashCode>
+      <FileName>Controllers\MessageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.TransactionController" Collapsed="true">
+    <Position X="15.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAACAAAAAAAAAAAgAACBAYAAAAgEAAYAQAEAA=</HashCode>
+      <FileName>Controllers\TransactionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YourNamespace.Controllers.ReviewController" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAgAAAAAACAAAAAEAQAAAAAgA=</HashCode>
+      <FileName>Controllers\ReviewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PickNPlay.Exceptions.ControllerException" Collapsed="true">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ControllerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Exceptions.DALException" Collapsed="true">
+    <Position X="15.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DALException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Exceptions.ServiceException" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="13.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.CategoryService" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIAAAAAAAAAAEAAAAAAAiCAAAAAAAAIIA=</HashCode>
+      <FileName>picknplay-bll\Services\CategoryService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.DepositService" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIAAAAAIAAAAEAAAAAAAgAEAAAAAAAIIA=</HashCode>
+      <FileName>picknplay-bll\Services\DepositService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.ListingService" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACAAEAIAgABAAUAABAABAgAAAAIAgAAACA=</HashCode>
+      <FileName>picknplay-bll\Services\ListingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.MessageService" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAAAAAAAAAgAAkABAAEAAAAAAAgAAAAIAAAAIIA=</HashCode>
+      <FileName>picknplay-bll\Services\MessageService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.ReviewService" Collapsed="true">
+    <Position X="15.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAAAAAAAAABAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>picknplay-bll\Services\ReviewService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.TransactionService" Collapsed="true">
+    <Position X="11.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMABAAgAAAAAAAAAAAhAAEAAAgAAAgAAAAAIAQAIIA=</HashCode>
+      <FileName>picknplay-bll\Services\TransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_bll.Services.UserService" Collapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAHABAAgEAIAgAAAgAABAAEACAFAAAgACAEBAQECKIA=</HashCode>
+      <FileName>picknplay-bll\Services\UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.Controllers.FavouriteService" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAIAAAAAAAAAgEAAAAAAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>picknplay-bll\Services\FavouriteService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_dal.Data.picknplayContext" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAGAAAQQQAAIAAAAAAAAAEAAAEAABAAAAAUAAAAA=</HashCode>
+      <FileName>picknplay-dal\Data\picknplayContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickNPlay.picknplay_dal.Data.UnitOfWork" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <AssociationLine Name="CategoryRepository" Type="PickNPlay.picknplay_dal.Repositories.ICategoryRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="7.087" />
+        <Point X="6.688" Y="7.087" />
+        <Point X="6.688" Y="3.125" />
+        <Point X="7.25" Y="3.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.067" Y="-4.119" Height="0.16" Width="1.427" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DepositRepository" Type="PickNPlay.picknplay_dal.Data.IDepositRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="6.628" />
+        <Point X="11.052" Y="6.628" />
+        <Point X="11.052" Y="5.062" />
+        <Point X="10.75" Y="5.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.957" Y="-1.565" Height="0.16" Width="1.567" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="FavouriteRepository" Type="PickNPlay.picknplay_dal.Data.IFavouriteRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="6.628" />
+        <Point X="6.915" Y="6.628" />
+        <Point X="6.915" Y="5.125" />
+        <Point X="7.25" Y="5.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.137" Y="-1.556" Height="0.16" Width="1.427" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ListingRepository" Type="PickNPlay.picknplay_dal.Interfaces.IListingRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="6.884" />
+        <Point X="6.82" Y="6.884" />
+        <Point X="6.82" Y="4.062" />
+        <Point X="7.25" Y="4.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.987" Y="-2.892" Height="0.16" Width="1.308" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="MessageRepository" Type="IMessageRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="7.344" />
+        <Point X="6.349" Y="7.344" />
+        <Point X="6.349" Y="2" />
+        <Point X="7.25" Y="2" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.947" Y="-5.565" Height="0.16" Width="1.278" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ReviewRepository" Type="IReviewRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="7.063" />
+        <Point X="11.343" Y="7.063" />
+        <Point X="11.343" Y="3.062" />
+        <Point X="10.75" Y="3.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.877" Y="-4.129" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="TransactionRepository" Type="PickNPlay.picknplay_dal.Repositories.ITransactionRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="7.344" />
+        <Point X="11.431" Y="7.344" />
+        <Point X="11.431" Y="2.062" />
+        <Point X="10.75" Y="2.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.897" Y="-5.505" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="UserRepository" Type="PickNPlay.picknplay_dal.Repositories.IUserRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="6.875" />
+        <Point X="11.22" Y="6.875" />
+        <Point X="11.22" Y="4.062" />
+        <Point X="10.75" Y="4.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.917" Y="-2.812" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAACAIAAAAAAAAAAAAAABAEAAAAAAACAAAQAAEAACCA=</HashCode>
+      <FileName>picknplay-dal\Data\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="context" />
+      <Property Name="CategoryRepository" />
+      <Property Name="DepositRepository" />
+      <Property Name="FavouriteRepository" />
+      <Property Name="ListingRepository" />
+      <Property Name="MessageRepository" />
+      <Property Name="ReviewRepository" />
+      <Property Name="TransactionRepository" />
+      <Property Name="UserRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="PickNPlay.picknplay_dal.Data.IDepositRepository" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IDepositRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PickNPlay.picknplay_dal.Data.IFavouriteRepository" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAQAAAAAAAAAAAAAEACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IFavouriteRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PickNPlay.picknplay_dal.Repositories.ICategoryRepository" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\ICategoryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PickNPlay.picknplay_dal.Repositories.ITransactionRepository" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACMABAAAAAAAABAAAAAAAAAAABAAAAAAAAAAgAQAIAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\ITransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PickNPlay.picknplay_dal.Repositories.IUserRepository" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAHAFAEAEAIAAAAAgAAAAAAACAEAABACCAEBiBICAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PickNPlay.picknplay_dal.Interfaces.IListingRepository" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAEAAAAAAAAAAAAAQAABAAAAAAAAAIAgACAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IListingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PickNPlay.picknplay_dal.Interfaces.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMessageRepository" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAIAAAAAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IMessageRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IReviewRepository" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>picknplay-dal\Interfaces\IReviewRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
