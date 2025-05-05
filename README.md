@@ -1,5 +1,5 @@
 # Partly
-
+ 
 ## Description
 
 This is a project of listings' aggregator.
